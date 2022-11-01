@@ -25,4 +25,4 @@ Task5.ipynb :
 Train the same model with one hidden layer.Document the performance improvement on using this layer.
 
 Task6(cpu).ipynb & Task6(gpu).ipynb :
-Compare the training times on a CPU vs GPU
+Compare the training times on a CPU vs GPU.

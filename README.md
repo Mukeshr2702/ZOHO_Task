@@ -26,3 +26,10 @@ Train the same model with one hidden layer.Document the performance improvement 
 
 Task6(cpu).ipynb & Task6(gpu).ipynb :
 Compare the training times on a CPU vs GPU.
+
+Task7.cpp & Task7.ipynb :
+Create python library which will get audio as input using pytorch.
+Apply the following augmentation techniques: Reverberation, Reduce the speed by 0.5.
+Now write a cpp program to get the audio input and store it as array.
+Use python bindings, to read the array of audio return from cpp program and apply augmentation technique listed above and create a new audio file with the augmentation changes.
+Calculate the torchmetrics PESQ and STOI on the audio files with and without the augmentation changes.
